@@ -13,6 +13,7 @@ h1, h2, h3 {
 }
 
 a {
+  color: #7c6d5c;
   text-decoration: none;
   opacity: 0.7;
 }
@@ -21,8 +22,9 @@ a:hover {
 }
 
 td:first-child {
-  height: 250px;
-  width: 250px;
+  height: 220px;
+  width: 220px;
+  padding: 5px 10px 5px 0px;
 }
 
 .img-circle {
@@ -35,6 +37,17 @@ td:first-child {
 
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-description {
+  color: rgb(20, 20, 20);
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.5;
 }
 
 .container {
@@ -53,6 +66,7 @@ td:first-child {
 
 .btn-contact {
   font-size: 14px;
+  font-style: oblique;
   background-color: #B39D85;
   color: rgb(10, 10, 10);
   margin-top: 50px;
@@ -71,4 +85,19 @@ td:first-child {
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+}
+.box-inline {
+  width: 100%;
+  display: table;
+  margin-bottom: 20px;
+}
+
+.box-item {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.social-logo {
+  font-size: 16px;
+  padding: 0px 50px;
 }
