@@ -22,8 +22,7 @@ a:hover {
 }
 
 td:first-child {
-  height: 220px;
-  width: 220px;
+  width: 280px;
   padding: 5px 10px 5px 0px;
 }
 
@@ -32,6 +31,7 @@ td:first-child {
 }
 
 .img-place {
+  width: 100%;
   border-radius: 4px;
 }
 
@@ -45,7 +45,7 @@ td:first-child {
 
 .text-description {
   color: rgb(20, 20, 20);
-  font-size: 15px;
+  font-size: 14px;
   font-style: italic;
   line-height: 1.5;
 }
@@ -89,7 +89,11 @@ td:first-child {
 .box-inline {
   width: 100%;
   display: table;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.box-inline  > h2 {
+  width: 250px;
 }
 
 .box-item {
@@ -97,7 +101,25 @@ td:first-child {
   vertical-align: middle;
 }
 
+.logo-places {
+  width: 30%;
+}
+
 .social-logo {
   font-size: 16px;
   padding: 0px 50px;
+}
+
+.contact-me {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+ #profile-pic {
+  width: 200px;
+  height: 189px;
+ }
+
+#profile-icon {
+  width: 7%;
 }
