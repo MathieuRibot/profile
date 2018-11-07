@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(20, 20, 20);
+  font-size: 15px;
+  line-height: 1,5em;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(20, 20, 20);
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  opacity: 0.7;
+}
+a:hover {
+  opacity: 1;
+}
+
+td:first-child {
+  height: 250px;
+  width: 250px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-place {
+  border-radius: 4px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 20px auto;
+}
+
+.card-white {
+  background-color: white;
+  box-shadow: 1px 1px 2px rgb(200, 200, 200);
+  padding: 20px;
+  border: 1px solid lightgrey;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.btn-contact {
+  font-size: 14px;
+  background-color: #B39D85;
+  color: rgb(10, 10, 10);
+  margin-top: 50px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  opacity: 1;
+}
+.btn-contact:hover {
+  opacity: 0.8;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
