@@ -1,5 +1,11 @@
+/* --- Google Fonts --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+
+/* --- Components design --- */
+
+
+/* --- Fonts --- */
 body {
-  background-color: rgb(201, 177, 155);
   font-family: 'Open Sans', sans-serif;
   color: rgb(20, 20, 20);
   font-size: 15px;
@@ -12,6 +18,7 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
+/* --- Links --- */
 a {
   color: #7c6d5c;
   text-decoration: none;
@@ -21,17 +28,30 @@ a:hover {
   opacity: 1;
 }
 
+/* --- Links --- */
 td:first-child {
   width: 280px;
   padding: 5px 10px 5px 0px;
 }
 
-.img-circle {
-  border-radius: 50%;
+/* --- Layout --- */
+.wrapper {
+  background-color: rgb(201, 177, 155);
+  margin: 0px;
+  padding: 10px;
 }
 
-.img-place {
-  width: 100%;
+.container {
+  width: 700px;
+  margin: 20px auto;
+}
+
+.card-white {
+  background-color: white;
+  box-shadow: 1px 1px 3px rgb(180, 180, 180);
+  padding: 20px;
+  border: 1.5px solid lightgrey;
+  margin-bottom: 20px;
   border-radius: 4px;
 }
 
@@ -43,55 +63,74 @@ td:first-child {
   text-align: justify;
 }
 
+/* --- Profile Image --- */
+ #profile-pic {
+  width: 200px;
+  height: 189px;
+ }
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#profile-icon {
+  width: 7%;
+}
+
+/* --- Contact Button --- */
+.btn-contact {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(30, 30, 30);
+  background-color: #B39D85;
+  padding: 12px 22px;
+  border-radius: 5px;
+  opacity: 0.85;
+}
+.btn-contact:hover {
+  opacity: 1;
+}
+
+.contact-me {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+/* --- Social Media --- */
+.social-logo {
+  font-size: 18px;
+  padding: 0px 15px;
+}
+
+/* --- Places Content --- */
+.logo-places {
+  width: 30%;
+}
+
+.img-place {
+  width: 100%;
+  border-radius: 4px;
+}
+
 .text-description {
   color: rgb(20, 20, 20);
   font-size: 14px;
   font-style: italic;
   line-height: 1.5;
 }
-
-.container {
-  width: 700px;
-  margin: 20px auto;
-}
-
-.card-white {
-  background-color: white;
-  box-shadow: 1px 1px 2px rgb(200, 200, 200);
-  padding: 20px;
-  border: 1px solid lightgrey;
-  margin-bottom: 20px;
-  border-radius: 4px;
-}
-
-.btn-contact {
-  font-size: 14px;
-  font-style: oblique;
-  background-color: #B39D85;
-  color: rgb(10, 10, 10);
-  margin-top: 50px;
-  padding: 8px 12px;
-  border-radius: 8px;
-  opacity: 1;
-}
-.btn-contact:hover {
-  opacity: 0.8;
-}
-
 .list-inline {
   padding-left: 0px;
 }
-
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
 }
+
 .box-inline {
   width: 100%;
   display: table;
   margin-bottom: 30px;
 }
-
 .box-inline  > h2 {
   width: 250px;
 }
@@ -101,29 +140,7 @@ td:first-child {
   vertical-align: middle;
 }
 
-.logo-places {
-  width: 30%;
-}
-
-.social-logo {
-  font-size: 18px;
-  padding: 0px 50px;
-}
-
-.contact-me {
-  margin-top: 25px;
-  margin-bottom: 10px;
-}
-
- #profile-pic {
-  width: 200px;
-  height: 189px;
- }
-
-#profile-icon {
-  width: 7%;
-}
-
+/* --- Responsive --- */
 @media(max-width: 700px) {
   .container {
     width: 500px;
