@@ -4,14 +4,14 @@
     <title>Mathieu Ribot's Profile</title>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
     <div class="wrapper">
       <div class="container">
-        <div class="card-white text-center">
-          <img src="images/profile.jpg" alt="Mathieu Ribot" id="profile-pic" class="img-circle">
+        <div class="profile-header card-white text-center">
+          <img src="images/profile.jpg" alt="Mathieu Ribot" id="img-profile" class="img-circle">
           <h1>Mathieu Ribot</h1>
           <img src="images/swiss_knife.png" alt="swiss-knife" id="profile-icon">
           <h3> Swiss knife @ Finance & HR Management @ Coding</h3>
@@ -22,32 +22,38 @@
             <a href="mailto:mathieu@ribot.me" class="btn-contact">Contact me</a>
           </div>
         </div>
-        <div class="card-white text-center">
-          <ul class="list-inline social-logo">
+        <div class="social-links card-white text-center">
+          <ul class="list-inline">
             <li class="text-center">
               <a href="https://www.facebook.com/mathieu.haribo.9" target="_blank">
-              <i class="fab fa-facebook-f"></i><br> Facebook
+              <i class="fab fa-facebook-f social-logo"></i><br> Facebook
             </a></li>
             <li class="text-center">
               <a href="https://www.linkedin.com/in/mribot/" target="_blank">
-              <i class="fab fa-linkedin-in"></i><br> Linkedin
+              <i class="fab fa-linkedin-in social-logo"></i><br> Linkedin
             </a></li>
             <li class="text-center">
               <a href="https://twitter.com/MathieuRibot" target="_blank">
-              <i class="fab fa-twitter"></i><br> Twitter
+              <i class="fab fa-twitter social-logo"></i><br> Twitter
             </a></li>
           </ul>
         </div>
-        <div class="card-white text-center ">
-          <div class="box-inline">
-            <img class="box-item logo-places" src="images/places1.png" alt="places1">
-            <h2 class="box-item">My favorite places</h2>
-            <img class="box-item logo-places" src="images/places2.png" alt="places2">
+        <div class="places-content card-white">
+          <div class="header-places">
+            <div class="header-logo-places">
+              <img class="logo-places" src="images/places1.png" alt="places1">
+            </div>
+            <div class="header-title-places">
+              <h2>My favorite places</h2>
+            </div>
+            <div class="header-logo-places">
+              <img class="logo-places" src="images/places2.png" alt="places2">
+            </div>
           </div>
           <table>
             <tr>
               <td>
-                <img src="images/alaska1.jpg" alt="Alaska" class="img-place">
+                <img src="images/alaska1.jpg" alt="Alaska" class="img-places">
               </td>
               <td>
                 <h3>Alaska (USA)</h3>
@@ -57,7 +63,7 @@
             </tr>
             <tr>
               <td>
-                <img src="images/guarija1.jpg" alt="La Guajira" class="img-place">
+                <img src="images/guarija1.jpg" alt="La Guajira" class="img-places">
               </td>
               <td>
                 <h3>La Guajira (Colombia)</h3>
@@ -67,7 +73,7 @@
             </tr>
             <tr>
               <td>
-                <img src="images/machu_picchu1.jpg" alt="Machu Picchu" class="img-place">
+                <img src="images/machu_picchu1.jpg" alt="Machu Picchu" class="img-places">
               </td>
               <td>
                 <h3>Machu Picchu (Perù)</h3>
@@ -77,7 +83,7 @@
             </tr>
           </table>
         </div>
-        <div class="card-white text-center">
+        <div class="profile-footer card-white text-center">
           <h2>About this page</h2>
           This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life (probably.).
           <ul class="list-inline">

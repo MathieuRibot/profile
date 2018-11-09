@@ -1,0 +1,28 @@
+/* --- Places list --- */
+.header-places {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.header-title-places {
+  text-align: center;
+  flex: 0 0 auto;
+  padding: 0px 15px;
+}
+.header-logo-places {
+  flex: 0 1 auto;
+}
+
+.text-description {
+  color: rgb(20, 20, 20);
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* --- Sizing pictures of the list --- */
+td:first-child {
+  width: 280px;
+  padding: 5px 10px 5px 0px;
+}

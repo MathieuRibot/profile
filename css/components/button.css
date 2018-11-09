@@ -1,0 +1,19 @@
+/* --- Contact Button --- */
+.btn-contact {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(30, 30, 30);
+  background-color: #E9D6C1;
+  padding: 12px 22px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(209, 193, 193);
+  opacity: 0.85;
+}
+.btn-contact:hover {
+  opacity: 1;
+}
+
+.contact-me {
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
